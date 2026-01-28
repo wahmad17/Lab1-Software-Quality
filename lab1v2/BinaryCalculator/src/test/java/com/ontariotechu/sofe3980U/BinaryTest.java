@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class BinaryTest {
 
-    // Test the OR function
+    
     @Test
     public void orTest() {
         Binary binary1 = new Binary("1010");
@@ -14,7 +14,7 @@ public class BinaryTest {
         assertTrue(result.getValue().equals("1110"));  // 1010 | 1100 = 1110
     }
 
-    // Test the AND function
+    
     @Test
     public void andTest() {
         Binary binary1 = new Binary("1010");
@@ -23,7 +23,7 @@ public class BinaryTest {
         assertTrue(result.getValue().equals("1000"));  // 1010 & 1100 = 1000
     }
 
-    // Test the multiplication function
+    
     @Test
     public void multiplyTest() {
         Binary binary1 = new Binary("1010");
