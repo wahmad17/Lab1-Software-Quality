@@ -6,29 +6,29 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) {
-        // Print the current local time
+        
         LocalTime currentTime = new LocalTime();
         System.out.println("The current local time is: " + currentTime);
 
-        // Initialize scanner for user input
+       
         Scanner scanner = new Scanner(System.in);
 
-        // Get binary inputs from the user
+      
         System.out.print("Enter the first binary number: ");
         String firstBinary = scanner.nextLine();
 
         System.out.print("Enter the second binary number: ");
         String secondBinary = scanner.nextLine();
 
-        // Create Binary objects
+       
         Binary binary1 = new Binary(firstBinary);
         Binary binary2 = new Binary(secondBinary);
 
-        // Print the binary numbers
+        
         System.out.println("First binary number is " + binary1.getValue());
         System.out.println("Second binary number is " + binary2.getValue());
 
-        // Choose operation
+        
         System.out.println("Choose an operation: ");
         System.out.println("1. OR");
         System.out.println("2. AND");
